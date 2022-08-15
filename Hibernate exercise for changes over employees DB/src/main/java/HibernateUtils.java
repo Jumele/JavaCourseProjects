@@ -10,7 +10,7 @@ public class HibernateUtils {
     private static SessionFactory buildSessionFactory() {
         try {
 
-            // Create the SessionFactory from hibernate-annotation.cfg.xml
+         
             Configuration configuration = new Configuration();
             configuration.addAnnotatedClass(Angajat.class);
             configuration.configure("hibernate.cfg.xml");
